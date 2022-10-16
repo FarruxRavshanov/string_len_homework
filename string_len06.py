@@ -7,4 +7,12 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    return
+    a = len(s1)
+    b = len(s2)
+    if a > b:
+        d = s1
+    else:
+        d = s2
+    return d
+
+print(main('house', 'church'))
