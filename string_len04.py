@@ -6,4 +6,8 @@ def main(s):
     Returns:
         string
     """
-    return
+    a = len(s)
+    b = a * '*'
+    return b
+
+print(main('square'))
