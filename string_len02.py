@@ -8,9 +8,9 @@ def main(a):
     """
     s = len(a)
     if s % 2 == 0:
-        s = "True"
+        s = 1 > 0
     else:
-        s = "False"
+        s = 0 > 1
     return s
 
 print(main("Ravshanov"))
