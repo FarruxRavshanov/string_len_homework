@@ -6,4 +6,11 @@ def main(a):
     Returns:
         True or False
     """
-    return
+    s = len(a)
+    if s % 2 == 0:
+        s = "True"
+    else:
+        s = "False"
+    return s
+
+print(main("Ravshanov"))
