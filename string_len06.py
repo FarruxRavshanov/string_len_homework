@@ -10,9 +10,9 @@ def main(s1,s2):
     a = len(s1)
     b = len(s2)
     if a > b:
-        d = s1
-    else:
         d = s2
+    else:
+        d = s1
     return d
 
 print(main('house', 'church'))
