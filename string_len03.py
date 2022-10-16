@@ -7,4 +7,9 @@ def main(a,b):
     Returns:
         True or False
     """
-    return
+    s = len(a)
+    d = len(b)
+    x = s == d
+    return x
+
+print(main('Vatan', 'School'))
