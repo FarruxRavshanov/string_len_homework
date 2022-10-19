@@ -11,18 +11,13 @@ def main(s1,s2,s3):
     answer = ''
 
     if len(s1) % 2 == 1:
-        answer += s1 + ','
+        answer += s1 + ', '
     if len(s2) % 2 == 1:
-        answer += s2 + ','
+        answer += s2 + ', '
     if len(s3) % 2 == 1:
         answer += s3 + ','
 
-    if answer != '':
-        answer = '[' + answer + ']'
-    else:
-        answer = ''
-
-    return answer
+    return '[' + answer[:-1] + ']'
    
 
-print(main('code', 'coder', 'python'))
+print(main('code', 'coder', 'pytho'))
