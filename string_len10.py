@@ -8,4 +8,9 @@ def main(s):
     Returns:
         bool: answer
     """
-    return
+    a = s[::-1]
+    if True:
+        a = s
+    return a
+
+print(main('lol'))
