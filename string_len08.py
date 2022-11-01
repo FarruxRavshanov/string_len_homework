@@ -8,10 +8,10 @@ def main(s):
     Returns:
         str: answer
     """
-    a = ''
+    answer = ''
     middle = len(s) // 2
     if len(s) % 2 == 1:
-        a = [middle]
+        answer = s[middle]
     else:
-        a = s[middle -1: middle + 1]
-    return a
+        answer = s[middle -1: middle + 1]
+    return answer
