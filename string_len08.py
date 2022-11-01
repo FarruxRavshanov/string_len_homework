@@ -9,9 +9,9 @@ def main(s):
         str: answer
     """
     a = ''
-    mid = len(s) // 2
+    middle = len(s) // 2
     if len(s) % 2 == 1:
-        a = [mid]
+        a = [middle]
     else:
-        a = s[mid -1: mid + 1]
+        a = s[middle -1: middle + 1]
     return a
