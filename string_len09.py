@@ -11,4 +11,4 @@ def main(num1, num2):
     """
     a = int(num1)
     b = int(num2)
-    return a + b
+    return str(a + b)
