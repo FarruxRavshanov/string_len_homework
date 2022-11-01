@@ -9,8 +9,6 @@ def main(s):
         bool: answer
     """
     a = s[::-1]
-    if True:
-        a = s
-    return a
+    return a == s
 
 print(main('lol'))
